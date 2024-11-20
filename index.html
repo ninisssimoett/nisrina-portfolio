@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <img src="assets/ggg-removebg-preview.png" alt="logo" class="logo">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#gallery">gallery</a>
+            <a href="#certificate">certificate</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">contact</a>
+
+        </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>hello everyone, its me!!</h3>
+            <h1>Nisrina asad alkatiri 🐻🐼</h1>
+            <h3>and i'm <span class="multiple-text"></span></h3>
+            <p></p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+
+            </div>
+            <a class="btn" href="#">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="assets/93D8B200-E94A-4FAB-8863-2D5FB07D873B_1_105_c-removebg-preview.png" alt="">
+        </div>
+    </section>
+
+    <!-- about me -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/foto aku.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">about <span>me</span></h2>
+            <h3>software engineer student</h3>
+            <p>Hello, my name is Nisrina. I am an IT student who is passionate about programming. Since the beginning of
+                my academic journey, I fell in love with coding, especially when using Visual Studio Code, which became
+                my favorite tool for developing various software projects. My love for technology drives me to always
+                learn new things, explore different programming languages, and keep up with the latest trends in the
+                industry.
+
+                As a programmer, I aspire to excel in this field. I believe that strong technical skills will help me
+                create innovative solutions to real-world problems. With my high curiosity, I often spend time working
+                on side projects, attending workshops, and joining programming communities to discuss and exchange ideas
+                with my peers.
+
+                I also aspire to be a big and successful entrepreneur. I dream of founding a technology company that not
+                only focuses on profit, but also has a positive impact on society. I believe that innovation and
+                entrepreneurship are complementary, and I am determined to combine these two worlds in my career.
+
+                With my passion for learning and innovation, I believe I can achieve all the goals I have set.</p>
+            <a class="btn" href="#">read more</a>
+        </div>
+    </section>
+
+    <!-- section tambahan -->
+    <section class="services" id="gallery">
+        <h2>my <span>gallery</span></h2>
+        <div class="gallery">
+            <div class="gallery-item" onclick="changeImage(this)">
+                <img src="assets/F0D7B6CF-B091-4474-B0B3-4ACF7C94F638_1_105_c.jpeg" alt="Gambar 1">
+            </div>
+            <div class="gallery-item" onclick="changeImage(this)">
+                <img src="assets/52C1AD49-527E-4ABB-B126-2BA365BBB6BF_1_105_c.jpeg" alt="Gambar 2">
+            </div>
+            <div class="gallery-item" onclick="changeImage(this)">
+                <img src="assets/6DC983FC-CAD1-4838-BA54-A0F77FC92C64.jpeg" alt="Gambar 3">
+            </div>
+            <div class="gallery-item" onclick="changeImage(this)">
+                <img src="assets/A9FA733B-4A96-402E-9306-EC5C9A0E6EB1_1_105_c.jpeg" alt="Gambar 4">
+            </div>
+            <div class="gallery-item" onclick="changeImage(this)">
+                <img src="assets/91750905-3E86-40F3-BD0E-32F7B9DF602A_1_105_c.jpeg" alt="Gambar 5">
+            </div>
+            <div class="gallery-item" onclick="changeImage(this)">
+                <img src="assets/CC5380B5-5B6B-4CC9-A025-B71D0934E163_1_105_c.jpeg" alt="Gambar 6">
+            </div>
+            <div class="gallery-item" onclick="changeImage(this)">
+                <img src="assets/D1FBDEED-ADE1-4EF8-A450-5A4C98CEED89_1_105_c.jpeg" alt="Gambar 7">
+            </div>
+            <div class="gallery-item" onclick="changeImage(this)">
+                <img src="assets/holakoh 5.jpeg" alt="Gambar 8">
+            </div>
+            <div class="gallery-item" onclick="changeImage(this)">
+                <img src="assets/Image_20240808_105403_379.jpeg" alt="Gambar 11">
+            </div>
+    </section>
+
+
+    <!-- services -->
+    <section class="services" id="services">
+        <h2>some <span>skills</span></h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <i class='bx bxl-visual-studio'></i>
+                <h3>pro coding</h3>
+                <p>can use visual studio code properly and correctly, can create a unique website and attract people's
+                    attention by using magical and gatsor features.</p>
+                <a class="btn" href="#">read more</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bx-basketball'></i>
+                <h3>basketball</h3>
+                <p>I really like playing basketball, I always joined basketball extracurriculars and participated in
+                    basketball competitions up to the national level.</p>
+                <a class="btn" href="#">read more</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bx-time'></i>
+                <h3>managing time</h3>
+                <p>I can manage my time well. I can distinguish between my time for playing, studying, resting, and this
+                    makes me feel disciplined and punctual.</p>
+                <a class="btn" href="#">read more</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- sertifikat -->
+    <section class="certificate" id="certificate">
+        <h2>my <span>certificate</span></h2>
+
+        <div class="certificate-container">
+            <div class="certificate-box">
+                <img src="assets/alhazeniwiwiwwwiwi.png" alt="project 1">
+            </div>
+
+            <div class="certificate-box">
+                <img src="assets/k inggris 1.png" alt="project 1">
+            </div>
+
+            <div class="certificate-box">
+                <img src="assets/apziiiii.png" alt="project 1">
+            </div>
+
+            <div class="certificate-box">
+                <img src="assets/muro enep.png" alt="project 1">
+            </div>
+
+            <div class="certificate-box">
+                <img src="assets/t com.png" alt="project 1">
+            </div>
+
+            <div class="certificate-box">
+                <img src="assets/t enep.png" alt="project 1">
+            </div>
+
+            <div class="certificate-box">
+                <img src="assets/apyeah.png" alt="project 1">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+        <h2>lastes <span>project</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="assets/project 1.png" alt="project 1">
+                <div class="portfolio-layer">
+                    <h4>furni</h4>
+                    <p>Soft and comfortable sofas make families more comfortable gathering together, all home needs are
+                        here, join now. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="assets/flower project.png" alt="project 1">
+                <div class="portfolio-layer">
+                    <h4>flowies</h4>
+                    <p>This unique and fragrant flower makes anyone happy and wants to buy more and more, the colors are
+                        eye-catching and very beautiful.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="assets/techgear project.png" alt="project 1">
+                <div class="portfolio-layer">
+                    <h4>techgear</h4>
+                    <p>Want to have fun and interesting games? Try this, it feels like in the real world, fun and
+                        challenging.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="assets/grow project.png" alt="project 1">
+                <div class="portfolio-layer">
+                    <h4>grow</h4>
+                    <p>Want to be able to code and make a good website? Join grow guaranteed to be good and reliable in
+                        the world of progamming.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- contact us -->
+    <section class="contact" id="contact">
+        <h2>contact <span>me!</span></h2>
+
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder="full name">
+                <input type="email" placeholder="full address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="number phone">
+                <input type="email" placeholder="email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>copyright &copy; 2024 by IDN akhwat | all right reserved.</p>
+        </div>
+
+        <div class="footer-icontop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+</body>
+<!-- typed js -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="js/main.js"></script>
+<script>
+    function changeImage(element) {
+        // Mengambil elemen <img> yang ada di dalam <div> yang diklik
+        const img = element.querySelector('img');
+
+        // Mengambil elemen gambar utama berdasarkan ID
+        const mainImage = document.getElementById('main-image');
+
+        // Mengubah src gambar utama menjadi src gambar yang diklik
+        mainImage.src = img.src;
+    }
+</script>
+
+</html>
